@@ -1,0 +1,741 @@
+main{
+  background-color: #eae8e8;
+
+
+
+
+}
+
+body {
+  margin: 0;
+}
+
+
+
+/*IMAC PAGE CSS START*/
+
+    /*IMAC main photo and specifications START*/
+
+
+
+.upper-part {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: row;
+
+}
+
+
+
+.child2 {
+  padding-top: 6rem;
+}
+
+
+.product_title {
+  font-size: 1.3rem;
+}
+
+#imac-photo {
+  width: 100%;
+  float: left;  /*iMac imaging floating to the left, so text can be horizontically right of the img */
+
+}
+
+
+
+.imac-desc {
+  background-color: #caafaf;
+  overflow: hidden;
+}
+
+#imac-desc {
+  font-size: 1.5rem;
+}
+
+
+    /*IMAC main photo and specifications END*/
+
+    /*IMAC description START*/
+
+
+.desc-list-wrapper{ /*i made this div so i could center my list */
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+
+.desc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+  width: 80vh;
+
+  clear: both;
+  list-style-type:none;
+}
+
+
+.desc-photo {
+  margin: 10px;
+  border-radius: 10px;
+  float: left;
+}
+
+.ph2{
+  float: right;
+}
+
+.list-element {
+  clear: left;
+}
+
+#comments {
+  clear: left;
+}
+
+.details-desc {
+  margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    /*IMAC description END*/
+
+/*IMAC PAGE CSS END*/
+
+
+
+
+
+
+/*PRODUCT LISTS CSS START*/
+.products { /* To kouti OLHS THS LISTAS */
+
+  display: flex;  /*h lista na provaletai orizontia k oxi ka8eta*/
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 2rem;
+  flex-shrink: 0.5;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 50px;
+
+
+}
+
+.products li { /*To kouti KA8E PROIONTOS */
+
+  background-color: white;
+
+  border-color: rgb(203, 227, 249);
+  border-radius: 10px;
+
+  transition: 0.7s;
+
+}
+
+.products li:hover {
+  transform: scale(0.85);
+  z-index: 2;
+}
+.products li:active {
+  background-color: rgb(233, 230, 230);
+  transition: 0.3s;
+}
+
+.img_list {  /*To kouti EIKONAS */
+  margin-left: 1.2rem;
+  margin-top: 20px;
+
+}
+
+.content {  /*To Kouti ONOMA KAI TIMI KLP*/
+
+  margin-top: 25px; /*Positioning my texts */
+  margin-left: 25px;/*Positioning my texts */
+
+  text-align: center;/*alligning text at the center of box */
+
+  width: 250px; /*Size of text box */
+  height: 140px;/*Size of text box */
+
+}
+
+.item-title { /* Modifies the text on my pc and gpus list(product name)*/
+  font-family: 'Arial';
+  font-size: 13px;
+}
+
+.details { /* Modifies the text on my pc and gpus list(price,product number, reviews)*/
+  font-family: 'Arial';
+  font-size: 11px;
+}
+/*PRODUCT LISTS CSS END*/
+
+
+
+
+
+
+/*MENU CODE STARTS*/
+
+
+/* megethos tou menu kai to xrwma tou */
+.menu-border {
+
+  height:75px;
+  background-color: #E5D9E6;
+}
+
+
+
+
+/* thesi tou menu */
+.menu {
+  display: flex;
+  position: absolute;
+  margin-left: 30px;
+
+
+}
+
+
+
+/* to style kathe stoixeio tou menu */
+.menu-elements {
+  min-width: 50px;
+  list-style: none;
+  padding: 0 120px;
+
+
+
+}
+
+
+/*epeksergasia twn stoixeiwn tou menu ws links */
+.menu-elements-links {
+  display: flex;
+  padding: 5px 3px;
+  text-decoration: none;
+  font-family:arial;
+  color: black;
+
+
+}
+
+
+/*emfanish tou dropdown tou menu */
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #E5D9E6;
+}
+
+
+/*hover effect twn stoixeiwn tou menu */
+.menu-elements:hover ul {
+
+  display: block;
+
+}
+
+
+/* to style kathe stoixeio tou dropdown tou menu */
+.menu-dropdown-elements {
+
+  width: 160px;
+  display: block;
+  padding: 20px 12px;
+  text-decoration: none;
+
+}
+
+/*epeksergasia twn stoixeiwn tou dropdown tou menu ws links */
+.menu-dropdown-links {
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+
+
+/*thesi ths eikonas tou logo tou site */
+.image{
+  float:left;
+}
+
+
+/*thesi kai megethos tou onomatos tou style*/
+.titl{
+  float:left;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family:arial;
+}
+
+
+/*MENU CODE END*/
+
+
+
+
+
+
+
+
+
+
+
+/*INDEX PRODUCT CATEGORIES CODE STARTS*/
+
+/*mhnuuma kalosorismatos sto index*/
+.titlx{
+  display: block;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+/*paragrafos sto index*/
+.welcome-text {
+  display: block;
+  float:left;
+}
+
+/*eikona tou logo tou site sto kentro ths selidas*/
+.weloome-text-img{
+  display: block;
+  padding: 20px;
+  margin-right: 60px;
+}
+
+
+
+
+.item-Categories{
+
+
+
+  box-sizing: border-box;
+
+
+}
+
+
+/*emfanish tou proothoumenou proiontos sto index*/
+.forward-item{
+  width: 360px;
+  display: block;
+  float:left;
+  font-weight: bold;
+  text-decoration: none;
+  font-family:arial;
+  color: black;
+
+  background-color: white;
+  text-align: center;
+
+}
+
+
+/* INDEX - PRODUCT CATEGORIES CODE ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer code starts */
+
+/*epeksergasia ths emfanishs tou footer*/
+.dabi {
+  display: flex;
+  right: 0;
+  bottom:0;
+  left:0;
+  background-color: #E5D9E6;
+
+
+}
+
+footer {
+  clear: both;
+}
+
+/*footer code ends */
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACT CODE STARTS*/
+
+.specific-form {
+  box-sizing: border-box;
+  margin-left: 120px;
+  margin-top: 60px;
+  align-items: center;
+
+
+
+}
+
+.contact-form{
+  max-width: 500px;
+  margin:2rem auto;
+  border: 2px solid #E5D9E6 ;
+  padding:2rem;
+
+}
+
+#button-form{
+  border: 0;
+  background: #E5D9E6;
+  padding:.5rem;
+  margin: 1rem 0;
+  width:auto;
+  text-transform:uppercase;
+  cursor:pointer;
+  }
+
+  label{
+    display:block;
+    padding:1rem 0 .25rem;
+  }
+
+  input, textarea {
+    display: block;
+    width:100%;
+
+  }
+
+
+
+  .inputing {
+    width: 160px;
+  }
+
+  .inputing-radio {
+    width: 270px;
+  }
+
+
+
+  .contact-parts {
+    margin-bottom: 40px;
+    border:0;
+
+  }
+
+
+  .grid-container {
+
+    margin-top: 150px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-gap: 20px;
+    padding: 10px;
+
+
+  }
+
+  .grid-item {
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family:arial;
+    color: black;
+
+  }
+
+
+
+
+
+
+  .grid-container-page {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr 0.2fr;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+
+
+  }
+
+
+  .grid-header {
+    grid-area: header;
+  }
+
+  .grid-main {
+    grid-area:main;
+
+  }
+
+  .grid-footer {
+    grid-area:footer;
+
+
+  }
+
+
+
+
+
+
+  .grid-main-container {
+    display: grid;
+
+    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-areas:
+    "grid1 grid1 grid2"
+    "grid3 grid3 grid3"
+    "grid4 grid4 grid4"
+  }
+
+
+
+.grid-item-1{
+  grid-area:grid1;
+}
+
+
+.grid-item-2{
+  grid-area:grid2;
+
+}
+
+.grid-item-3{
+  grid-area:grid3;
+
+}
+
+
+.grid-item-4{
+  grid-area:grid4;
+
+}
+
+
+
+
+
+
+
+
+
+.grid-main-product-container {
+  display:grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 80px;
+  grid-template-areas:
+  "taskbar product-1 product-1 product-1"
+  "taskbar product-2 product-2 product-2"
+  "taskbar product-3 product-3 product-3"
+  "taskbar product-4 product-4 product-4"
+  "taskbar product-5 product-5 product-5"
+
+}
+
+.grid-taskbar{
+  grid-area: taskbar;
+
+}
+
+.grid-product-1 {
+  grid-area: product-1;
+
+}
+
+.grid-product-2 {
+  grid-area: product-2;
+
+}
+
+.grid-product-3 {
+  grid-area: product-3;
+
+}
+
+.grid-product-4 {
+  grid-area: product-4;
+
+}
+
+.grid-product-5 {
+  grid-area: product-5;
+
+}
+
+.sidebar{
+  box-sizing: border-box;
+  text-decoration: none;
+  background:#E5D9E6;
+  list-style: none;
+
+}
+
+.title-of-product{
+  background: #E5D9E6;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES */
+
+/*media queries gia tablet */
+@media screen and (max-width:768px) {
+  .grid-container-page {
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0.6fr 0.2fr 0.2fr;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+
+
+  }
+
+
+  .grid-main-container {
+    display: grid;
+
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    grid-template-areas:
+    "grid1 grid2"
+    "grid3 grid3"
+    "grid4 grid4"
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-gap: 20px;
+    padding: 10px;
+
+
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+/*Media queries for mobile phones */
+
+@media screen and (max-width:480px) {
+  .grid-container-page {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+
+  }
+
+
+  .grid-main-container {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-areas:
+    "grid1"
+    "grid2"
+    "grid3"
+    "grid4"
+  }
+
+
+
+  .grid-aboutUs{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "info"
+  }
+
+  .aboutUsContent{
+    grid-area:info;
+  }
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-gap: 20px;
+    padding: 10px;
+
+
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    padding: 20px;
+  }
+
+
+}
+
+
+
+
+  /*CONTACT CODE ENDS*/
